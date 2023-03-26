@@ -1,0 +1,12 @@
+<ul>
+    {% for category in categorys %}
+        <li>
+            <a href="?{{ other_querystring }}&{{ menu }}={{ category.id }}">{{ category.name }}</a>
+        </li>
+
+        {% if category.child_categorys %}
+            {% include 'treemenu/Menu.html' with categorys=category.child_categorys %}
+        {% endif %}
+
+    {% endfor %}
+</ul>

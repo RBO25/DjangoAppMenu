@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="notebook" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.db.models.fields.related.ManyToManyField.count" />
+          <option value="Board.bulletin.models.tanki" />
+          <option value="Board.bulletin.models.hill" />
+          <option value="Board.bulletin.models.DD" />
+          <option value="Board.bulletin.models.torg" />
+          <option value="Board.bulletin.models.gild" />
+          <option value="Board.bulletin.models.kwest" />
+          <option value="Board.bulletin.models.kuz" />
+          <option value="Board.bulletin.models.kozh" />
+          <option value="Board.bulletin.models.zell" />
+          <option value="Board.bulletin.models.masters" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
